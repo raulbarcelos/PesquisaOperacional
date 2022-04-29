@@ -6,7 +6,7 @@ print("********************************** EXERCICIO 01 *************************
 print("**********************************************************************************")
 print("|\tA padaria do Pão & Pão vende seus pães por R$ 4,60 cada. \n|\tO pão do dia anterior (pão dormido) tem um desconto de 60%. \n|\tImplemente um programa que leia o número de pães dormidos que o usuário \n|\testá comprando e exiba o preço normal do pão, o desconto e o preço total. \n|\tTodos os valores devem ser exibidos usando duas casas decimais, \n|\te as casas decimais em todos os números devem ser alinhadas.")
 print("**********************************************************************************")
-input("\nPressione Enter para iniciar...")
+input("\nPressione Enter para iniciar... ")
 
 
 quant_pao_dormido=1.2 
