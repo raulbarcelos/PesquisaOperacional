@@ -63,7 +63,7 @@ while(not out):
     else:
         print("Só são aceitos numeros inteiros maiores ou igual a 2")
 
-    opcao=input("\nPressione Enter para digitar mes e ano novamente ou 0 para sair: ")
+    opcao=input("\nPressione Enter para digitar limite novamente ou 0 para sair: ")
     if(opcao == 0 or opcao=='0'):
         print("------ SAINDO DO PROGRAMA! ------")
         out=True
