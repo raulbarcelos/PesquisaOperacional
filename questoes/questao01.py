@@ -1,13 +1,7 @@
 
-import os
+from questao import numero_questao
 
-print("**********************************************************************************")
-print("********************************** EXERCICIO 01 **********************************")
-print("**********************************************************************************")
-print("|\tA padaria do Pão & Pão vende seus pães por R$ 4,60 cada. \n|\tO pão do dia anterior (pão dormido) tem um desconto de 60%. \n|\tImplemente um programa que leia o número de pães dormidos que o usuário \n|\testá comprando e exiba o preço normal do pão, o desconto e o preço total. \n|\tTodos os valores devem ser exibidos usando duas casas decimais, \n|\te as casas decimais em todos os números devem ser alinhadas.")
-print("**********************************************************************************")
 input("\nPressione Enter para iniciar... ")
-
 
 quant_pao_dormido=1.2 
 
@@ -18,10 +12,7 @@ while(not out):
     valor_desconto = valor_pao*0.6
     valor_pao_dormido=valor_pao-valor_desconto
     
-    os.system('cls' if os.name == 'nt' else 'clear')
-    print("**********************************************************************************")
-    print("********************************** EXERCICIO 01 **********************************")
-    print("**********************************************************************************")
+    numero_questao(1)
     
     print('\nValor pão unid.: \t{:.2f}'.format(valor_pao))
     print('Valor do desconto: \t{:.2f} -> ({})%'.format(valor_desconto, int(valor_desconto*100/valor_pao)))

@@ -1,6 +1,6 @@
 
+from questao import numero_questao
 import os
-import random
 
 os.system('cls' if os.name == 'nt' else 'clear')
 input("\nPressione Enter para iniciar... ")
@@ -52,10 +52,7 @@ def scrabble(palavra):
 out=False
 while(not out): 
         
-    os.system('cls' if os.name == 'nt' else 'clear')
-    print("**********************************************************************************")
-    print("********************************** EXERCICIO 08 **********************************")
-    print("**********************************************************************************")
+    numero_questao(8)
 
     palavra = input("Digite uma palavra (A-Z): ")
 

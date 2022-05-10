@@ -1,5 +1,5 @@
 
-import os
+from questao import numero_questao
 import random
 
 input("\nPressione Enter para iniciar... ")
@@ -11,11 +11,7 @@ out=False
 while(not out):
     
         
-    os.system('cls' if os.name == 'nt' else 'clear')
-    print("**********************************************************************************")
-    print("********************************** EXERCICIO 02 **********************************")
-    print("**********************************************************************************")
-    
+    numero_questao(2)
     
     itens_verdes=[0, 100]
     itens_vermelhos=[1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36]

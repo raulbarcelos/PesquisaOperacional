@@ -1,6 +1,7 @@
 
+
+from questao import numero_questao
 import os
-import random
 
 os.system('cls' if os.name == 'nt' else 'clear')
 input("\nPressione Enter para iniciar... ")
@@ -46,10 +47,7 @@ out=False
 while(not out):
     
         
-    os.system('cls' if os.name == 'nt' else 'clear')
-    print("**********************************************************************************")
-    print("********************************** EXERCICIO 05 **********************************")
-    print("**********************************************************************************")
+    numero_questao(5)
 
     mes=input("\nDigite o mes: ")
     ano=input("Digite o ano com 4 digitos: ")

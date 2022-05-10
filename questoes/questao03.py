@@ -1,4 +1,6 @@
 
+
+from questao import numero_questao
 import os
 import random
 
@@ -12,10 +14,7 @@ out=False
 while(not out):
     
         
-    os.system('cls' if os.name == 'nt' else 'clear')
-    print("**********************************************************************************")
-    print("********************************** EXERCICIO 03 **********************************")
-    print("**********************************************************************************")
+    numero_questao(3)
     
     colecao = []
     aux=0

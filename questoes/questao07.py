@@ -1,6 +1,7 @@
 
+from questao import numero_questao
 import os
-import random
+
 
 os.system('cls' if os.name == 'nt' else 'clear')
 input("\nPressione Enter para iniciar... ")
@@ -51,10 +52,7 @@ def crivo_de_eratostenes(limite):
 out=False
 while(not out): 
         
-    os.system('cls' if os.name == 'nt' else 'clear')
-    print("**********************************************************************************")
-    print("********************************** EXERCICIO 07 **********************************")
-    print("**********************************************************************************")
+    numero_questao(7)
 
     limite = input("Digite o limite: ")
 

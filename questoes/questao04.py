@@ -1,6 +1,7 @@
 
+
+from questao import numero_questao
 import os
-import random
 
 os.system('cls' if os.name == 'nt' else 'clear')
 input("\nPressione Enter para iniciar... ")
@@ -12,10 +13,7 @@ out=False
 while(not out):
     
         
-    os.system('cls' if os.name == 'nt' else 'clear')
-    print("**********************************************************************************")
-    print("********************************** EXERCICIO 04 **********************************")
-    print("**********************************************************************************")
+    numero_questao(4)
 
     ano=input("\nDigite o ano para descobrir se é bissexto: ")
     if (not ano.isdigit()) or (not float(ano)%1 == 0):
