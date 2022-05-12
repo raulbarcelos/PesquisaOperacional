@@ -20,8 +20,7 @@ Senão
     Defina d2 igual à distância de edição entre todos os caracteres em s, e todos caracteres exceto o último em t, mais 1
     Defina d3 igual à distância de edição entre todos os caracteres, exceto o último em s, e todos os caracteres, exceto o último em t, mais custo
     Retorne o mínimo de d1, d2 e d3
- """
-def 
+ """ 
 
 out=False
 while(not out): 
@@ -42,14 +41,6 @@ while(not out):
         if s[len(s)-1] == t[len(t)-1]:
             custo = 1
             print(custo)
-    
-""" 
-d1 é comparação dos caracteres de s e t
-sendo s recursivamente você vai reduzindo a string
-d2 vc faz o mesmo só que a cada iteração recursiva o t vai reduzindo
-e d3 vc compra as duas strings, sendo que a cada iteração vc reduz 1 caractere de cada string
- """
-
 
 
     #ler_arquivo(arquivo1)
